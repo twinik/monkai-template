@@ -1,0 +1,177 @@
+.feed-rte h1 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: "Suisseintl webxl", sans-serif;
+  font-weight: 900;
+}
+.feed-rte h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: "Suisseintl webxl", sans-serif;
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: 900;
+}
+.feed-rte h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: "Suisseintl webxl", sans-serif;
+  font-size: 36px;
+  line-height: 120%;
+  font-weight: 900;
+}
+.feed-rte h4 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: "Suisseintl webxl", sans-serif;
+  font-size: 28px;
+  line-height: 120%;
+  font-weight: 900;
+}
+.feed-rte h5 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: "Suisseintl webxl", sans-serif;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 900;
+}
+.feed-rte h6 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-family: "Suisseintl webxl", sans-serif;
+  font-size: 13px;
+  line-height: 170%;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.feed-rte p {
+  font-family: "Big Pixel Demo";
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 300;
+}
+.feed-rte li {
+  margin-bottom: 12px;
+}
+.feed-rte a {
+  color: #6deae3;
+  font-weight: 700;
+}
+.feed-rte a:hover {
+  text-decoration: none;
+}
+.feed-rte figure {
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+.feed-rte figcaption {
+  color: hsla(0, 0%, 100%, 0.45);
+  font-weight: 300;
+}
+.feed-rte.alt {
+  margin-bottom: 100px;
+}
+
+.faq-icon {
+  width: 36px;
+  margin-right: 12px;
+}
+
+.mission-icon {
+  background-size: 46px 46px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  width: 46px;
+  height: 46px;
+  margin-right: 15px;
+}
+
+.mission-icon {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-6deg);
+  }
+  20% {
+    transform: rotate(6deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(6deg);
+  }
+  50% {
+    transform: rotate(-6deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-6deg);
+  }
+  80% {
+    transform: rotate(6deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-6deg);
+  }
+}
+
+.heart {
+  background-image: url("../images/heart.png");
+}
+
+.sword {
+  background-image: url("../images/sword.png");
+}
+.coin {
+  background-image: url("../images/coin.png");
+}
+
+.joystick {
+  background-image: url("../images/joystick.png");
+}
+
+.fire {
+  background-image: url("../images/fire.png");
+}
+.beer {
+  background-image: url("../images/beer.png");
+}
+
+.mission-description {
+  background-image: url("./../images/mission-text-small-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  width: 90%;
+  padding: 1.5rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+    1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    4.5px 7.794px 6.44px rgba(8, 48, 55, 0.76);
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .mission-description {
+    background-image: url("./../images/mission-text-bg.png");
+  }
+}

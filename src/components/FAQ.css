@@ -1,0 +1,15 @@
+
+.faq .feed-rte p {
+  margin-bottom: 12px;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 1024px) {
+  .ghost-slide {
+    padding: 3vw !important;
+  }
+  
+}

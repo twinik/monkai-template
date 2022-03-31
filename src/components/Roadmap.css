@@ -1,0 +1,259 @@
+.roadmap-grid {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+  -ms-grid-columns: 0.6fr 1fr;
+  grid-template-columns: 0.6fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+.roadmap-grid__col.content {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+.roadmap-grid__col.intro {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+}
+.roadmap__line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  display: none;
+  width: 1px;
+  height: 100%;
+  background-color: #9ea7c5;
+  opacity: 0.3;
+}
+.roadmap-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.roadmap-item__title {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-family: "Suisseintl webxl", sans-serif;
+  font-size: 16px;
+}
+.roadmap-anchor-line {
+  display: none;
+  height: 1px;
+  min-width: 80px;
+  background-color: #9ea7c5;
+  opacity: 0.3;
+}
+.roadmap-item__content {
+  padding: 16px;
+  border-radius: 12px;
+  background-color: var(--primary-color-2);
+}
+
+.goal {
+  position: absolute;
+  background-size: 6% 8%;
+  background-repeat: no-repeat;
+  width: 6%;
+  height: 8%;
+  z-index: 20;
+  cursor: pointer;
+}
+.first-goal {
+  top: 79.5%;
+  left: 37.5%;
+}
+
+/* 
+.second-goal {
+  top: 15%;
+  left: 40.5%;
+}
+
+.third-goal {
+  top: 25%;
+  left: 63.5%;
+}
+
+.fourth-goal {
+  top: 38%;
+  left: 82.5%;
+}
+
+.fifth-goal {
+  top: 46%;
+  left: 53.5%;
+}
+
+.sixth-goal {
+  top: 46%;
+  left: 34%;
+}
+
+.seventh-goal {
+  top: 40%;
+  left: 8%;
+}
+
+.eighth-goal {
+  top: 76%;
+  left: 11.5%;
+}
+
+.ninth-goal {
+  top: 78.5%;
+  left: 48%;
+}
+
+.tenth-goal {
+  top: 71%;
+  left: 79.5%;
+} */
+
+.goal-description {
+  display: none;
+  position: absolute;
+  z-index: 20;
+  top: 102%;
+  left: 0;
+  right: 0;
+
+  animation: port 1s 1 forwards;
+}
+/* 
+.first-goal-description {
+  top: 21.5%;
+  left: 7%;
+}
+
+.second-goal-description {
+  top: 23%;
+  left: 15.5%;
+}
+
+.third-goal-description {
+  top: 33%;
+  left: 50.5%;
+}
+
+.fourth-goal-description {
+  top: 46%;
+  left: 72.5%;
+}
+
+.fifth-goal-description {
+  top: 54%;
+  left: 40.5%;
+}
+
+.sixth-goal-description {
+  top: 54%;
+  left: 16%;
+}
+
+.seventh-goal-description {
+  top: 48.5%;
+  left: 2%;
+}
+
+.eighth-goal-description {
+  top: 84%;
+  left: 2%;
+}
+
+.ninth-goal-description {
+  top: 86.5%;
+  left: 25%;
+}
+
+.tenth-goal-description {
+  top: 79%;
+  left: 68.5%;
+} */
+.first-goal:hover + .first-goal-description {
+  display: flex;
+}
+/* 
+
+.second-goal:hover + .second-goal-description {
+  display: flex;
+}
+
+.third-goal:hover + .third-goal-description {
+  display: flex;
+}
+
+.fourth-goal:hover + .fourth-goal-description {
+  display: flex;
+}
+
+.fifth-goal:hover + .fifth-goal-description {
+  display: flex;
+}
+
+.sixth-goal:hover + .sixth-goal-description {
+  display: flex;
+}
+
+.seventh-goal:hover + .seventh-goal-description {
+  display: flex;
+}
+
+.eighth-goal:hover + .eighth-goal-description {
+  display: flex;
+}
+
+.ninth-goal:hover + .ninth-goal-description {
+  display: flex;
+}
+
+.tenth-goal:hover + .tenth-goal-description {
+  display: flex;
+} */
+
+@keyframes port {
+  0% {
+    transform: rotateY(90deg) translateY(25%);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateY(0deg) translateY(0%);
+    opacity: 1;
+  }
+}
+
+.roadmap-disclaimer {
+  text-align: end;
+  position: absolute; /* 
+  left: 150px; */
+  top: -25px;
+}
+
+@media screen and (min-width: 1280px) {
+  .roadmap-disclaimer {
+    /* 
+    left: 41%; */
+  }
+}

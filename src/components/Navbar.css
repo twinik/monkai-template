@@ -1,0 +1,82 @@
+.nav {
+  position: relative;
+  padding: 36px 3%;
+}
+.nav--container {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.social-links {
+  position: fixed;
+  top: 2vw;
+  right: 5vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 150;
+}
+.social--link {
+  margin-left: 16px;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+  color: #fff;
+}
+.social--link:hover {
+  color: #6deae3;
+}
+.social--link.hide,
+.social--link.mobile {
+  display: none;
+}
+.social--icon {
+  width: 28px;
+  height: 28px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.social--icon.opensea {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-bg-wrapper {
+  /* background-image: url("./../images/claim-bg.png"); */
+  background-color: #fff;
+  height: 65vw;
+  background-size: 100% 100%;
+}
+
+@media screen and (min-width: 767px) {
+  .hero-bg-wrapper {
+    height: 55vw;
+  }
+}
