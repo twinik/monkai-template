@@ -2371,10 +2371,13 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  border: 1px solid rgba(241, 64, 64, 0.8);
+  border-radius: 5px;
+  background-color: rgba(241, 64, 64, 0.2);
   text-align: center;
 }
 .text-link {
-  color: #6deae3;
+  color: rgba(241, 64, 64);
   font-weight: 700;
 }
 .text-link:hover {
@@ -2840,7 +2843,7 @@ figcaption {
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
   }
-  
+
   .roadmap-grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;

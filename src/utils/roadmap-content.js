@@ -1,24 +1,47 @@
 const steps = [
   {
     title: "ACHIEVMENTS TO DATE",
-    subtitle:
+    description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    content: ["Meet our team", "Get your project's details", "Plan & Scope"],
+    content: [
+      {
+        title: "COMMUNITY UPDATES",
+        subtitles: ["Meet our team", "Get your project's details"],
+      },
+      {
+        title: "GROWTH RATE",
+        subtitles: ["Lorem ipsum lorem ipsum", "Get your project's details"],
+      },
+    ],
   },
   {
     title: "SUCCESFUL EVENTS",
-    subtitle:
+    description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-    content: ["Smart contract on Devnet", "Template setup", "Testing & QA"],
+    content: [
+      {
+        title: "INFLUENCER NEWS & PARTNERS",
+        subtitles: [
+          "Smart contract on Devnet",
+          "Template setup",
+          "Testing & QA",
+        ],
+      },
+    ],
   },
   {
     title: "FUTURE EVENTS",
-    subtitle:
+    description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
     content: [
-      "Online & Available During Mint",
-      "Full technical support",
-      "Cross promo & marketing",
+      {
+        title: "INFLUENCER NEWS & PARTNERS",
+        subtitles: [
+          "Smart contract on Devnet",
+          "Template setup",
+          "Testing & QA",
+        ],
+      },
     ],
   },
 ];

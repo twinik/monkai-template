@@ -6,7 +6,7 @@
   padding: 2rem;
 }
 
-.border{
+.border {
   border: 0.2rem solid #fff;
   padding: 0%;
   border-radius: 0.2rem;
@@ -30,7 +30,7 @@
   margin-bottom: 1.75rem;
   border-radius: 15px;
   width: 75%;
-  border: 6px solid var(--border-gray-2);
+  border: 6px solid var(--red-color-3);
 }
 
 .team-card-wrapper {
@@ -55,7 +55,6 @@
   margin-bottom: 1.5rem;
 }
 .team-card-text {
-
 }
 
 .team-card-description {

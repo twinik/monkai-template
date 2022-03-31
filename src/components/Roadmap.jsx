@@ -100,7 +100,7 @@ const Roadmap = () => {
           {/* ROADMAP STORYLINE */}
           <div className="container-roadMap">
             {steps.map((step, index) => (
-              <RoadItem data={step} key={step.title} />
+              <RoadItem data={step} key={step.title} index={index} />
             ))}
           </div>
 
