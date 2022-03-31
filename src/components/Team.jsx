@@ -22,7 +22,7 @@ const Team = () => {
     },
     {
       img: sonny,
-      name: "Sonny Fazio (RealTalkStocks)",
+      name: "Sonny Fazio (RealTalk Stocks)",
       description:
         "Is an entrepeneur/content creator born and raised in Boston, Mass with over 100,000 followers on his tiktok @realtalkstocks.  Sonny has always had a passion for helping others become financially literate which is why he founded this project.  He’ll be a large part in the community building and content creation for HolyNFT.",
       instagram: "https://www.instagram.com/realtalkstocks/",
@@ -68,61 +68,60 @@ const Team = () => {
   return (
     <section className="team">
       <div className="team-container container pb-6 pt-6 md:pt-16">
-        <h2 className="text-center mb-8">
-          <strong>Team Members </strong>
-        </h2>
-        {member.map((item, index) => {
-          return (
-            <div key={item.name} className="team-card-wrapper p-6 mb-6">
-              <div className="team-card  pt-32 relative text-center grid grid-cols-1 md:grid-cols-4  lg:grid-cols-4 justify-center items-center md:items-start md:justify-evenly">
-                <div className="team-card-image text-center m-auto md:-m-0 ">
-                  <img src={item.img} alt={item.name} className="" />
-                </div>
-                <div className="team-card-text h-full relative md:col-span-3 lg:col-span-3 md:ml-4 px-6 pt-2 pb-12 md:pb-6">
-                  <h3 className="team-card-name  md:text-left text-base  sm:text-sm md:text-md lg:text-lg xl:text-lg ">
-                    {item.name}
-                  </h3>
-                  <p className="team-card-description text-left text-base sm:text-sm md:text-md lg:text-lg xl:text-lg leading-tight lg:leading-tight">
-                    {item.description}
-                  </p>
-                  {/* SOCIALS */}
-                  <div className="team-socials flex relative right-0 justify-end gap-2 items-end mt-3 md:mt-6">
-                    {item.twitter ? (
-                      <a href={item.twitter}>
-                        <BsTwitter />
-                      </a>
-                    ) : null}
-                    {item.instagram ? (
-                      <a href={item.instagram}>
-                        <BsInstagram />
-                      </a>
-                    ) : null}
-                    {item.discord ? (
-                      <a href={item.discord}>
-                        <FaDiscord />
-                      </a>
-                    ) : null}
-                    {item.tiktok ? (
-                      <a href={item.tiktok}>
-                        <FaTiktok />
-                      </a>
-                    ) : null}
-                    {item.github ? (
-                      <a href={item.github}>
-                        <FaGithub />
-                      </a>
-                    ) : null}
-                    {item.docs ? (
-                      <a href={item.docs}>
-                        <FaWpforms />
-                      </a>
-                    ) : null}
+        <div className="border">
+          {member.map((item, index) => {
+            return (
+              <div key={item.name} className="team-card-wrapper p-6 mb-6">
+                <div className="team-card  pt-32 relative text-center grid grid-cols-1 md:grid-cols-4  lg:grid-cols-4 justify-center items-center md:items-start md:justify-evenly">
+                  <div className="team-card-image text-center m-auto md:-m-0 ">
+                    <img src={item.img} alt={item.name} className="" />
+                  </div>
+                  <div className="team-card-text h-full relative md:col-span-3 lg:col-span-3 md:ml-4 px-6 pt-2 pb-12 md:pb-6">
+                    <h3 className="team-card-name  md:text-left text-base  sm:text-sm md:text-md lg:text-lg xl:text-lg ">
+                      {item.name}
+                    </h3>
+                    <p className="team-card-description text-left text-base sm:text-sm md:text-md lg:text-lg xl:text-lg leading-tight lg:leading-tight">
+                      {item.description}
+                    </p>
+                    {/* SOCIALS */}
+                    <div className="team-socials flex relative right-0 justify-end gap-2 items-end mt-3 md:mt-6">
+                      {item.twitter ? (
+                        <a href={item.twitter}>
+                          <BsTwitter />
+                        </a>
+                      ) : null}
+                      {item.instagram ? (
+                        <a href={item.instagram}>
+                          <BsInstagram />
+                        </a>
+                      ) : null}
+                      {item.discord ? (
+                        <a href={item.discord}>
+                          <FaDiscord />
+                        </a>
+                      ) : null}
+                      {item.tiktok ? (
+                        <a href={item.tiktok}>
+                          <FaTiktok />
+                        </a>
+                      ) : null}
+                      {item.github ? (
+                        <a href={item.github}>
+                          <FaGithub />
+                        </a>
+                      ) : null}
+                      {item.docs ? (
+                        <a href={item.docs}>
+                          <FaWpforms />
+                        </a>
+                      ) : null}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </section>
   );

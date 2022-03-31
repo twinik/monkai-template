@@ -75,8 +75,51 @@
   background-size: 100% 100%;
 }
 
+.painting{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.flex-box{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.monkai-logo{
+  width: 65%;
+  margin-top: 30%;
+}
+
 @media screen and (min-width: 767px) {
   .hero-bg-wrapper {
     height: 55vw;
+  }
+
+  .monkai-logo{
+    width: 50%;
+    margin-top: 30%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hero-bg-wrapper {
+    height: 50vw;
+  }
+
+  .monkai-logo{
+    width: 40%;
+    margin-top: 25%;
   }
 }

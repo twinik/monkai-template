@@ -3,14 +3,23 @@ import "../styles/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
 
 import "./Feed.css";
-import ghostSlider1Mp4 from "../images/ghost-slider-1.mp4";
-import ghostSlider2Mp4 from "../images/ghost-slider-2.mp4";
-import ghostSlider3Mp4 from "../images/ghost-slider-3.mp4";
-import ghostSlider4Mp4 from "../images/ghost-slider-4.mp4";
-import ghostSlider1Webm from "../images/ghost-slider-1.webm";
-import ghostSlider2Webm from "../images/ghost-slider-2.webm";
-import ghostSlider3Webm from "../images/ghost-slider-3.webm";
-import ghostSlider4Webm from "../images/ghost-slider-4.webm";
+
+import kappaMp4 from "../images/pixel-video/kappa.mp4";
+import yetiMp4 from "../images/pixel-video/yeti.mp4";
+import foxMp4 from "../images/pixel-video/fox.mp4";
+import macaqueMp4 from "../images/pixel-video/macaque.mp4";
+import spiritedAwayMp4 from "../images/pixel-video/spirited-away.mp4";
+import nezukoMp4 from "../images/pixel-video/nezuko.mp4";
+import cyberMp4 from "../images/pixel-video/cyber.mp4";
+
+import kappaWebm from "../images/pixel-webm/kappa.webm";
+import yetiWebm from "../images/pixel-webm/yeti.webm";
+import foxWebm from "../images/pixel-webm/fox.webm";
+import macaqueWebm from "../images/pixel-webm/macaque.webm";
+import spiritedAwayWebm from "../images/pixel-webm/spirited-away.webm";
+import nezukoWebm from "../images/pixel-webm/nezuko.webm";
+import cyberWebm from "../images/pixel-webm/cyber.webm";
+
 import missionLogo from "../images/mission-logo.png";
 const Feed = () => {
   const missions = [
@@ -62,26 +71,49 @@ const Feed = () => {
         <div className="ghost-slider">
           <div className="ghost-slide g1">
             <video id="ghost-img" autoPlay="autoplay" loop muted playsInline>
-              <source src={ghostSlider1Webm} type="video/webm" />
-              <source src={ghostSlider1Mp4} type="video/mp4" />
+              <source src={kappaWebm} type="video/webm" />
+              <source src={kappaMp4} type="video/mp4" />
             </video>
           </div>
           <div className="ghost-slide g2">
             <video id="ghost-img" autoPlay="autoplay" loop muted playsInline>
-              <source src={ghostSlider2Webm} type="video/webm" />
-              <source src={ghostSlider2Mp4} type="video/mp4" />
+              <source src={yetiWebm} type="video/webm" />
+              <source src={yetiMp4} type="video/mp4" />
             </video>
           </div>
           <div className="ghost-slide g1">
             <video id="ghost-img" autoPlay="autoplay" loop muted playsInline>
-              <source src={ghostSlider3Webm} type="video/webm" />
-              <source src={ghostSlider3Mp4} type="video/mp4" />
+              <source src={foxWebm} type="video/webm" />
+              <source src={foxMp4} type="video/mp4" />
             </video>
           </div>
           <div className="ghost-slide g2">
             <video id="ghost-img" autoPlay="autoplay" loop muted playsInline>
-              <source src={ghostSlider4Webm} type="video/webm" />
-              <source src={ghostSlider4Mp4} type="video/mp4" />
+              <source src={macaqueWebm} type="video/webm" />
+              <source src={macaqueMp4} type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+
+      <div className="ghost-wrapper">
+        <div className="ghost-slider">
+          <div className="ghost-slide g1">
+            <video id="ghost-img" autoPlay="autoplay" loop muted playsInline>
+              <source src={spiritedAwayWebm} type="video/webm" />
+              <source src={spiritedAwayMp4} type="video/mp4" />
+            </video>
+          </div>
+          <div className="ghost-slide g2">
+            <video id="ghost-img" autoPlay="autoplay" loop muted playsInline>
+              <source src={nezukoWebm} type="video/webm" />
+              <source src={nezukoMp4} type="video/mp4" />
+            </video>
+          </div>
+          <div className="ghost-slide g1">
+            <video id="ghost-img" autoPlay="autoplay" loop muted playsInline>
+              <source src={cyberWebm} type="video/webm" />
+              <source src={cyberMp4} type="video/mp4" />
             </video>
           </div>
         </div>
@@ -89,11 +121,6 @@ const Feed = () => {
       <div className="padding-wrapper lg:mt-6">
         <div className="container feed">
           <div id="mission" className="feed-rte alt w-richtext">
-            <ScrollAnimation animateIn="bounceIn" animateOut="bounceOut">
-              <div className="mission-img text-center w-6/12 mx-auto mb-12">
-                <img src={missionLogo} alt="" />
-              </div>
-            </ScrollAnimation>
             {missions.map((mission, index) => {
               return (
                 <ScrollAnimation

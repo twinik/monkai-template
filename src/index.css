@@ -2139,6 +2139,7 @@ figcaption {
 .container.feed {
   z-index: 5;
   max-width: 840px;
+  margin-top: 5rem;
 }
 .container.legal {
   max-width: 960px;
@@ -2222,7 +2223,6 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-top: 1px solid rgba(156, 135, 179, 0.2);
-  background-color: var(--primary-color-1);
   color: #9ea7c5;
 }
 .copyright {
@@ -2371,9 +2371,6 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 1px solid #a552fb;
-  border-radius: 5px;
-  background-color: rgba(165, 82, 251, 0.14);
   text-align: center;
 }
 .text-link {
@@ -2843,6 +2840,7 @@ figcaption {
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
   }
+  
   .roadmap-grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -3404,12 +3402,12 @@ header {
 #mint h3 {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 600;
-  color: #f1f1f1;
+  color: #000;
   align-items: center;
 }
 
 #mint p {
-  color: #f1f1f1;
+  color: #000;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -3419,7 +3417,7 @@ header {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 600;
   font-size: 32px;
-  color: #f1f1f1;
+  color: #000;
   margin-block-start: 0;
   margin-block-end: 0;
 }
@@ -3428,7 +3426,7 @@ header {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 600;
   font-size: 22px;
-  color: #f1f1f1;
+  color: #000;
   margin-block-start: 0;
   margin-block-end: 0;
 }
@@ -3469,14 +3467,14 @@ header {
   margin-left: 80px;
   margin-right: auto;
   padding: 32px;
-  background: #131313;
+  background: #fff;
   border-radius: 10px;
 }
 
 #payment-info {
   display: flex;
   padding: 12px;
-  border: solid white 1px;
+  border: solid #000 1px;
   border-radius: 10px;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -3529,7 +3527,7 @@ header {
   display: flex;
   padding: 12px;
   background: rgba(123, 123, 123, 0.41);
-  border: 1px solid white;
+  border: 1px solid #000;
   box-sizing: border-box;
   border-radius: 10px;
   margin-bottom: 32px;
@@ -3548,8 +3546,8 @@ header {
 #ape-total {
   display: flex;
   height: 65px;
-  border-top: solid white 1px;
-  border-bottom: solid white 1px;
+  border-top: solid #000 1px;
+  border-bottom: solid #000 1px;
   margin-bottom: 32px;
   padding-left: 10px;
   padding-right: 10px;
@@ -3570,7 +3568,7 @@ header {
 
 .purchase-button {
   color: #0d0d0d;
-  background-color: #f1f1f1;
+  background-color: #dbdbdb;
   border-radius: 10px;
   padding: 11px;
   border: none;

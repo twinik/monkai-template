@@ -31,7 +31,7 @@
 .section.feed {
   position: relative;
   overflow: hidden;
-  background-color: var(--primary-color-2);
+  background-color: var(--primary-color-1);
 }
 .section.roadmap {
   position: relative; /* 
@@ -43,7 +43,7 @@
   position: relative;
   overflow: hidden;
   padding-bottom: 40px;
-  background-color: var(--primary-color-2);
+  background-color: var(--primary-color-1);
 }
 .section.legal {
   position: relative;
@@ -326,10 +326,6 @@
 
 .hero-bg-wrapper {
   overflow: hidden;
-  width: 100vw;
-}
-
-.hero-bg-wrapper img {
   width: 100vw;
 }
 

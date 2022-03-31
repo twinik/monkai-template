@@ -11,6 +11,16 @@ import ghostFaq3Webm from "../images/ghost-faq-3.webm";
 import ghostFaq4Mp4 from "../images/ghost-faq-4.mp4";
 import ghostFaq4Webm from "../images/ghost-faq-4.webm";
 
+import ghostMp4 from "../images/pixel-video/ghost.mp4";
+import tenguMp4 from "../images/pixel-video/tengu.mp4";
+import macaqueMp4 from "../images/pixel-video/ps-test-07.mp4";
+import pixelMp4 from "../images/pixel-video/ps-test-04-fix.mp4";
+
+import ghostWebm from "../images/pixel-webm/ghost.webm";
+import tenguWebm from "../images/pixel-webm/tengu.webm";
+import macaqueWebm from "../images/pixel-webm/ps-test-07.webm";
+import pixelWebm from "../images/pixel-webm/ps-test-04-fix.webm";
+
 const FAQ = () => {
   const faqs = [
     {
@@ -136,35 +146,32 @@ const FAQ = () => {
               muted
               playsInline
             >
-              <source src={ghostFaq1Webm} type="video/webm" />
-              <source src={ghostFaq1Mp4} type="video/mp4" />
+              <source src={ghostWebm} type="video/webm" />
+              <source src={ghostMp4} type="video/mp4" />
             </video>
           </div>
           <div className="ghost-slide g2">
             <video id="ghost-img" autoPlay="autoplay" loop muted playsInline>
-              <source src={ghostFaq2Webm} type="video/webm" />
-              <source src={ghostFaq2Mp4} type="video/mp4" />
+              <source src={tenguWebm} type="video/webm" />
+              <source src={tenguMp4} type="video/mp4" />
             </video>
           </div>
           <div className="ghost-slide g1">
             <video id="ghost-img" autoPlay="autoplay" loop muted playsInline>
-              <source src={ghostFaq3Webm} type="video/webm" />
-              <source src={ghostFaq3Mp4} type="video/mp4" />
+              <source src={macaqueWebm} type="video/webm" />
+              <source src={macaqueMp4} type="video/mp4" />
             </video>
           </div>
           <div className="ghost-slide g2">
             <video id="ghost-img" autoPlay="autoplay" loop muted playsInline>
-              <source src={ghostFaq4Webm} type="video/webm" />
-              <source src={ghostFaq4Mp4} type="video/mp4" />
+              <source src={pixelWebm} type="video/webm" />
+              <source src={pixelMp4} type="video/mp4" />
             </video>
           </div>
         </div>
       </div>
       <div className="padding-wrapper mt-0 ">
         <div className="container feed">
-          <h1 className="feed-section--title mb-12 text-3xl ">
-            <strong>FAQ</strong>
-          </h1>
           <div className="feed-collection w-dyn-list">
             <div role="list" className="feed-list w-dyn-items">
               {faqs.map((item) => {

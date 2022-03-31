@@ -5,8 +5,9 @@ import { ethers } from "ethers";
 import toast, { Toaster } from "react-hot-toast";
 import CryptoJS from "crypto-js";
 
-import auraWebm from "../images/aura.webm";
-import auraMp4 from "../images/aura.mp4";
+import auraWebm from "../images/pixel-webm/mysterymonkai1.webm";
+import auraMp4 from "../images/pixel-video/mysterymonkai1.mp4";
+
 import contractAbi from "../utils/HolyNFT.json";
 import signatures from "../utils/signatures.json";
 

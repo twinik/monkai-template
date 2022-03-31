@@ -3,6 +3,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Big Pixel Demo";
+  padding: 2rem;
+}
+
+.border{
+  border: 0.2rem solid #fff;
+  padding: 0%;
+  border-radius: 0.2rem;
 }
 
 .team-card {
@@ -16,9 +23,6 @@
   width: 78%;
 
   padding: 4px !important;
-  background-image: url("./../images/card-img-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .team-card-image img {
@@ -41,16 +45,17 @@
 }
 
 .team-card-name {
-  color: var(--red-color-1);
+  color: #fff;
   text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
     1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     4.5px 7.794px 6.44px rgba(8, 48, 55, 0.76);
   letter-spacing: 1px;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 .team-card-text {
-  background-image: url("./../images/card-text-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .team-card-description {
