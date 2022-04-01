@@ -46,6 +46,10 @@
   padding: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 .btn {
   background-color: #79779f;
   color: #fff;

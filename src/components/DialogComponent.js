@@ -30,7 +30,13 @@ export default function DialogComponent() {
 
         <div className="btn-container">
           <div className="btn">
-            <p className="text-in-btn">VIEW</p>
+            <a
+              href="https://holyversenft.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p className="text-in-btn">VIEW</p>
+            </a>
           </div>
         </div>
       </div>
