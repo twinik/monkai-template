@@ -353,8 +353,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
   counter-reset: contador;
+  margin: 3rem auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container-roadMap {
+    width: 85%;
+  }
 }
 
 .container-roadmap-items {
