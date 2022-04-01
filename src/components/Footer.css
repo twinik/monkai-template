@@ -1,10 +1,10 @@
-.footer{
-  background-image: url("../images/new/painting_black.png");
+.footer {
+  background-image: url("../images/drips/dripPurple2.png");
   background-size: contain;
   background-color: #fff;
   background-repeat: no-repeat;
   border-top: 0px;
-  margin: 0px;
+  margin-top: 0px;
   width: 100%;
 }
 
@@ -98,28 +98,40 @@
   align-items: center;
 }
 
-.monkai{
+.monkai {
   width: 35%;
 }
 
-.footer-content{
+.monkai:hover {
+  transform: scale(1.05);
+  transition-timing-function: ease-in-out;
+  transition: 0.2s;
+}
+
+.footer-content {
   margin-top: 5rem;
 }
 
-.copi{
+.copi {
   margin: auto;
   text-align: center;
   margin-top: 2rem;
 }
 
-.copyright{
-  color: black;
+.copyright {
+  color: #000;
   font-size: 1rem;
   font-family: "Big Pixel Demo";
 }
 
+.copyright:hover {
+  transform: scale(1.05);
+  transition-timing-function: ease-in-out;
+  transition: 0.2s;
+}
+
 @media (min-width: 768px) {
-  .footer-content{
+  .footer-content {
     margin-top: 10rem;
   }
   .monkai {
@@ -136,10 +148,10 @@
     width: 70%;
   }
 
-  .copyright{
+  .copyright {
     font-size: 1.5em;
   }
-    
+
   .copi {
     margin-top: 5rem;
   }
@@ -158,7 +170,7 @@
     font-size: 1.5em;
   }
 
-  .copi{
+  .copi {
     margin-top: 5rem;
   }
 }
@@ -172,5 +184,3 @@
     width: 70%;
   }
 }
-
-

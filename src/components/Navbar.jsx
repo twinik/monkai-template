@@ -6,18 +6,16 @@ import claimBg from "./../images/claim-bg.png";
 import claimHeroes from "./../images/claim-heroes.png";
 
 import painting from "./../images/new/painting_black.png";
+import drip from "./../images/drips/drip-purple.png";
+import drip2 from "./../images/drips/dripPurple2.png";
+
 import monkai from "./../images/new/monkai_black.png";
 
 const Navbar = () => {
   return (
     <div className="nav-fixed-wrapper">
       <div className="hero-bg-wrapper">
-        <img
-          src={painting}
-          alt="back"
-          className="painting"
-          style={{ backgroundSize: "100% 100%" }}
-        />
+        <img src={drip2} alt="back" className="drip" />
         <div className="flex-box">
           <img src={monkai} alt="monkai-logo" className="monkai-logo" />
         </div>

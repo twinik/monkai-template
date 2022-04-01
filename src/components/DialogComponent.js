@@ -10,7 +10,7 @@ export default function DialogComponent() {
     <Dialog
       classNames={{
         root: "dialog-root",
-        closeButton: "your-closeButton-class",
+        closeButton: "close-button",
       }}
       opened={opened}
       size="xl"

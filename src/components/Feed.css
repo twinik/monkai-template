@@ -166,6 +166,8 @@
   letter-spacing: 1px;
 }
 
-@media screen and (min-width: 768px) {
-
+#ghost-img:hover {
+  transform: scale(1.05);
+  transition-timing-function: ease-in-out;
+  transition: 0.2s;
 }
