@@ -15,16 +15,6 @@ const DialogComponent = loadable(() =>
   import("./components/DialogComponent.js")
 );
 
-/* 
-import Navbar from './components/Navbar.jsx';
-import Claim from './components/Claim.js';
-import Footer from './components/Footer.jsx';
-import Feed from './components/Feed.jsx';
-import Roadmap from './components/Roadmap.jsx';
-import FAQ from './components/FAQ.jsx';
-import Team from './components/Team.jsx';
-import MobileHeader from './components/MobileHeader.js'; */
-
 const getLibrary = (provider) => new ethers.providers.Web3Provider(provider);
 
 const App = () => {

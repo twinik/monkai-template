@@ -57,6 +57,12 @@ a {
   border-radius: 5%;
 }
 
+.btn:hover {
+  transform: scale(1.05);
+  transition-timing-function: ease-in-out;
+  transition: 0.2s;
+}
+
 .text-in-btn {
   font-size: 1.2rem;
   font-weight: bold;

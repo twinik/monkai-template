@@ -3477,7 +3477,6 @@ header {
 #payment-info {
   display: flex;
   padding: 12px;
-  border: solid #000 1px;
   border-radius: 10px;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -3528,9 +3527,8 @@ header {
 
 #ape-number {
   display: flex;
-  padding: 12px;
-  background: rgba(123, 123, 123, 0.41);
-  border: 1px solid #000;
+  padding: 15px 20px;
+  background: #e5e5e5;
   box-sizing: border-box;
   border-radius: 10px;
   margin-bottom: 32px;
@@ -3549,8 +3547,6 @@ header {
 #ape-total {
   display: flex;
   height: 65px;
-  border-top: solid #000 1px;
-  border-bottom: solid #000 1px;
   margin-bottom: 32px;
   padding-left: 10px;
   padding-right: 10px;
@@ -3570,14 +3566,15 @@ header {
 }
 
 .purchase-button {
-  color: #0d0d0d;
-  background-color: #dbdbdb;
+  color: #000;
+  background-color: #e5e5e5;
   border-radius: 10px;
   padding: 11px;
   border: none;
   width: 100%;
   font-size: 24px;
   cursor: pointer;
+  letter-spacing: 1px;
 }
 
 /* Rarity & Spec */

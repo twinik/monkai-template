@@ -69,8 +69,7 @@
 }
 
 .hero-bg-wrapper {
-  /* background-image: url("./../images/claim-bg.png"); */
-  background-color: #fff;
+  background-color: #fff !important;
   height: 65vw;
   background-size: 100% 100%;
 }
