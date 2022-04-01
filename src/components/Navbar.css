@@ -75,14 +75,14 @@
   background-size: 100% 100%;
 }
 
-.painting{
+.drip {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
 }
 
-.flex-box{
+.flex-box {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -97,7 +97,7 @@
   align-items: center;
 }
 
-.monkai-logo{
+.monkai-logo {
   width: 65%;
   margin-top: 30%;
 }
@@ -107,7 +107,7 @@
     height: 55vw;
   }
 
-  .monkai-logo{
+  .monkai-logo {
     width: 50%;
     margin-top: 30%;
   }
@@ -118,7 +118,7 @@
     height: 50vw;
   }
 
-  .monkai-logo{
+  .monkai-logo {
     width: 40%;
     margin-top: 25%;
   }
