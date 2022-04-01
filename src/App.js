@@ -11,6 +11,9 @@ const Roadmap = loadable(() => import("./components/Roadmap.jsx"));
 const FAQ = loadable(() => import("./components/FAQ.jsx"));
 const Team = loadable(() => import("./components/Team.jsx"));
 const MobileHeader = loadable(() => import("./components/MobileHeader.js"));
+const DialogComponent = loadable(() =>
+  import("./components/DialogComponent.js")
+);
 
 /* 
 import Navbar from './components/Navbar.jsx';
@@ -29,6 +32,7 @@ const App = () => {
     <Web3ReactProvider getLibrary={getLibrary}>
       <div id="app">
         <Navbar />
+        <DialogComponent />
         <Claim />
         <Feed />
         <Roadmap />
